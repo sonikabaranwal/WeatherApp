@@ -37,7 +37,7 @@ const getWeatherInfo = async () => {
 
 useEffect(() => {
   getWeatherInfo();
-},[]);
+});
 
   return (
     <>
