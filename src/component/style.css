@@ -36,20 +36,23 @@ body {
   flex-wrap: wrap;
   cursor: pointer;
   border-radius: 20px;
-  box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3),
-    0 17px 17px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 27px 55px 0 rgba(56, 101, 197, 0.3),
+    0 17px 17px 0 rgb(179, 245, 199);
 }
 .widget .weatherIcon {
   flex: 1 100%;
   height: 50%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  background: #fafafa;
+  background: url(https://media.istockphoto.com/photos/panorama-blue-sky-and-clouds-with-daylight-natural-background-picture-id1263264401?k=20&m=1263264401&s=170667a&w=0&h=KCD__NPw6Xm68gyO-zz5QcEPX1J3ppdEpTI_x4YqSUQ=);
   font-family: weathericons;
   display: flex;
   align-items: center;
   justify-content: space-around;
   font-size: 100px;
+}
+.widget .weatherIcon:hover{
+  color:rgb(18, 17, 102)
 }
 
 .widget .weatherInfo {
@@ -87,7 +90,7 @@ body {
 .widget .date {
   flex: 0 0 30%;
   height: 40%;
-  background: #70c1b3;
+  background: #25524a;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -155,7 +158,7 @@ body {
 }
 
 .searchTerm:focus {
-  color: #00b4cc;
+  color: #382f8b;
 }
 
 .searchButton {
@@ -164,7 +167,7 @@ body {
   border: none;
   background: #048b9c;
   text-align: center;
-  color: #fff;
+  color: rgb(238, 235, 207);
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 20px;
@@ -173,7 +176,7 @@ body {
 }
 
 .searchButton:hover {
-  background-color: #17b8ce;
+  background-color: #149675;
 }
 
 .wrap {
