@@ -6,7 +6,7 @@ A webpage created using ReactJs and an API which auto-detects the city entered b
 
 The user can get the current weather information of any city in the world by entering the name of the city in the search bar.
 
-The informations are displayed inside a card on the web app.
+The information is displayed inside a card on the web app.
 
 ## Deployment
 
